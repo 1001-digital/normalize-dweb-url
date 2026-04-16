@@ -1,11 +1,11 @@
 {
-  "name": "@1001-digital/normalize-ipfs-url",
+  "name": "@1001-digital/normalize-dweb-url",
   "version": "0.1.0",
   "description": "Normalize IPFS, IPNS, and Arweave URIs — gateway detection, redundant path removal, raw CID handling.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/1001-digital/normalize-ipfs-url.git"
+    "url": "https://github.com/1001-digital/normalize-dweb-url.git"
   },
   "type": "module",
   "exports": {

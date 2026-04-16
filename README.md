@@ -1,15 +1,15 @@
-# @1001-digital/normalize-ipfs-url
+# @1001-digital/normalize-dweb-url
 
 Normalize IPFS, IPNS, and Arweave URIs -- gateway detection, redundant path removal, raw CID handling.
 
 ```
-npm install @1001-digital/normalize-ipfs-url
+npm install @1001-digital/normalize-dweb-url
 ```
 
 ## Usage
 
 ```ts
-import { normalizeUri, isResolvableUri } from '@1001-digital/normalize-ipfs-url'
+import { normalizeUri, isResolvableUri } from '@1001-digital/normalize-dweb-url'
 
 normalizeUri('https://gateway.pinata.cloud/ipfs/QmXxx')  // 'ipfs://QmXxx'
 normalizeUri('https://bafyABC.ipfs.nftstorage.link')     // 'ipfs://bafyABC'
